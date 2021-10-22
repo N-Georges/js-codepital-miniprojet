@@ -18,19 +18,21 @@ class Patients extends Humain {
             console.log(phraseArrive);
         }
         this.takeCare = (a) => {
-            if (this.argent >= this.traitement[a]) {
+            if (a.argent >= a.traitement[a]) {
                 return "tu a droit a ton traitement"
             }else{
                 return "tu n'a pas droit a ton traitement"
             }
         }
-        this.paye = (cout) => {
-            // let a = consultations
-            this.argent = this.argent - cout
-            return console.log(`${this.nom} a payer la consultation : ${consultations}$`);
-        }
     }
 }
+
+
+// let paye = (a, cout) => {
+//     // let a = consultations
+//     a.argent = a.argent - cout
+//     console.log(`${a.nom} a payer la consultation : ${cout}$`);
+// }
 
 
 
