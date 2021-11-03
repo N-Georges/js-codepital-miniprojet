@@ -18,24 +18,4 @@ Lieux = [salleAttente, cabinet, cimetiere, pharmacie]
 
 
 
-
-
-
-
-
-
-
-///////////////////////////////////////// test unitaire //////////////////////////////////////////
-// test des instances de Lieux
-// console.log(Lieux[0]);
-// console.log(Lieux[1]);
-// console.log(Lieux[2]);
-
-
-
-
-
-
-
-
 export default Lieux

@@ -75,11 +75,4 @@ let traitements = [
     {traitement : "f12+doc" , prix : 20}
 ]
 
-
-/////////////////////////////////// test unitaire /////////////////////////////// 
-// console.log(doctor.cabinet);
-
-// doctor.cabinet.push(Patients[0])
-
-
 export default Doctor

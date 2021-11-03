@@ -27,15 +27,6 @@ class Patients extends Humain {
     }
 }
 
-
-// let paye = (a, cout) => {
-//     // let a = consultations
-//     a.argent = a.argent - cout
-//     console.log(`${a.nom} a payer la consultation : ${cout}$`);
-// }
-
-
-
 let marcus = new Patients("Marcus", "mal indenté", 100, "vide", "malade", [])
 let optimus = new Patients("Optimus", "unsave", 200, "vide", "malade", [])
 let sangoku = new Patients("Sangoku", "404", 80, "vide", "malade", [])
@@ -52,25 +43,5 @@ let traitements = [
     {traitement : "ventoline" , prix : 40},
     {traitement : "f12+doc" , prix : 20}
 ]
-
-
-
-
-
-
-
-
-/////////////////////////////////// test unitaire
-///// test fonctions goTo
-// marcus.goTo(Lieux[0].nom, Lieux[1].nom);
-
-//// test affichage maladie des patients
-// console.log(Patients[0].maladie);
-
-//// test fonctions paye
-// Patients[0].paye()
-// console.log(Patients[0].argent);
-
-
 
 export default Patients
